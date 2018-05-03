@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>kok</title>
   </head>
   <body>
       <?php
@@ -18,10 +18,13 @@
       ?>
       <?php
         if ($age >= 18) {
-          echo " a můžeš si koupit alkohol";
+          echo " a můžeš si koupit alkohol" ;
+        }
+        elseif ($age >= 15) {
+          echo " a sice máš občanku, ale alohol ti neprodáme bez dozoru." ;
         }
         else {
-            echo "Ještě si nemůžeš koupit alkohol." ;
+            echo " a ještě si nemůžeš koupit alkohol." ;
         }
       ?>
 
